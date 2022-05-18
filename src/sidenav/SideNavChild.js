@@ -1,4 +1,5 @@
-export default function SideNavChild(props){
+export {SideNavChild};
+ function SideNavChild(props){
     const {children} = props;
     return(
       <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">

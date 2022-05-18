@@ -1,4 +1,5 @@
-export default function NavCollapseSubItem(props){
+export {NavCollapseSubItem};
+ function NavCollapseSubItem(props){
     return(
       <a class="nav-link" href={props.subitemLink}>{props.subitem}</a>
     )

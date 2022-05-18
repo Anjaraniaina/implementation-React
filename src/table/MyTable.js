@@ -1,4 +1,5 @@
-export default function MyTable(props){
+export {MyTable};
+ function MyTable(props){
     const {children, title} = props;
     return(
       <div class="card mb-4">

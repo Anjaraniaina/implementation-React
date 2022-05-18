@@ -1,4 +1,5 @@
-export default function MySidenavNav(props){
+export {MySidenavNav};
+ function MySidenavNav(props){
     const {children} = props;
     return(
       <div id="layoutSidenav_nav">

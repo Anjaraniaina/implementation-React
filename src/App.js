@@ -1,5 +1,5 @@
-import React, { Children } from 'react';
-import { MyBreadscrumb, BreadscrumbContent } from './miscellaneous/MyBreadscrumb';
+import React from 'react';
+import { MyBreadscrumb } from './miscellaneous/MyBreadscrumb';
 import {HeadCard} from './miscellaneous/HeadCard';
 import {MyFooter} from './miscellaneous/MyFooter';
 import {MyDropdownMenu, DropdownItem} from './nav/MyDropdownMenu';
@@ -21,7 +21,7 @@ import { TableRow} from './table/TableRow';
 
 function App(){
   return (
-    <><MyNav>
+    <><MyNav bigtitle="Start Boostrap">
       <form className="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
         <MySearchBar />
       </form>

@@ -1,4 +1,5 @@
-export default function CollapsedElt(props){
+export {CollapsedElt};
+ function CollapsedElt(props){
   const {children} = props;
     return(
       <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">

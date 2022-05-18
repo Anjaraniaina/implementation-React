@@ -1,4 +1,5 @@
-export default function MySearchBar(props){
+export {MySearchBar};
+ function MySearchBar(props){
     return(
       <div className="input-group">
               <input className="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
